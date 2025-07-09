@@ -58,6 +58,7 @@ ul {
   font-weight: 500;
   background-color: #4d5ae5;
   color: white;
+  cursor: pointer;
 }
 
 /* ADVANTAGES */
