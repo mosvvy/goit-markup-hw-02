@@ -3,6 +3,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -10,21 +11,18 @@ ul {
 }
 
 /* HEADER */
-.header {
-  width: 1128px;
-  /* height: 72px; */
-}
-
 .logo {
-  font-family: "Railway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo .accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .menu-item {
@@ -35,10 +33,19 @@ ul {
   text-decoration: none;
 }
 
-.contacts-item > a {
+.contacts {
   font-style: normal;
+}
+
+.contacts-item-link {
   text-decoration: none;
+  letter-spacing: 0.02em;
   color: #434455;
+}
+
+.contacts-item-link:hover,
+.contacts-item-link:active {
+  color: #404bbf;
 }
 
 /* HERO */
@@ -49,16 +56,24 @@ ul {
 .hero-title {
   font-weight: bold;
   font-size: 56px;
-  text-indent: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: white;
 }
 
 .cta {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: white;
   cursor: pointer;
+}
+
+.cta:hover,
+.cta:active {
+  color: #404bbf;
 }
 
 /* ADVANTAGES */
@@ -69,6 +84,10 @@ ul {
   color: #2e2f42;
 }
 
+.advantages-item-text {
+  letter-spacing: 0.02em;
+}
+
 /* TEAM */
 .team-section {
   background-color: #f4f4fd;
@@ -77,7 +96,8 @@ ul {
 .team-title {
   font-weight: bold;
   font-size: 36px;
-  text-indent: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -94,12 +114,42 @@ ul {
   text-align: center;
   font-weight: 500;
   font-size: 20px;
-  text-indent: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .team-item-text {
+  letter-spacing: 0.02em;
   text-align: center;
+}
+
+/* PORTFOLIO */
+.portfolio-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-item-img {
+  width: 360px;
+}
+
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-item-text {
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* FOOTER */
@@ -107,10 +157,11 @@ ul {
   background-color: #2e2f42;
 }
 
-.footer-section .logo {
+.footer-section .logo > .accent {
   color: #f4f4fd;
 }
 
 .footer-text {
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
