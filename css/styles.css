@@ -72,11 +72,17 @@ ul {
 }
 
 .cta:hover,
-.cta:active {
-  color: #404bbf;
+.cta:focus {
+  background-color: #404bbf;
 }
 
 /* ADVANTAGES */
+
+.advantages-title {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .advantages-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -95,8 +101,9 @@ ul {
 
 .team-title {
   font-weight: bold;
+  text-transform: capitalize;
   font-size: 36px;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -104,10 +111,6 @@ ul {
 
 .team-item {
   background-color: white;
-}
-
-.team-item-img {
-  width: 264px;
 }
 
 .team-item-title {
@@ -133,10 +136,6 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-.portfolio-item-img {
-  width: 360px;
 }
 
 .portfolio-item-title {
