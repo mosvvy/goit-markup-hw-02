@@ -27,10 +27,16 @@ ul {
 
 .menu-item {
   font-weight: 500;
+}
+.menu-item-link {
+  text-decoration: none;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-item > a {
-  text-decoration: none;
+
+.menu-item-link:hover,
+.menu-item-link:focus {
+  color: #404bbf;
 }
 
 .contacts {
@@ -44,7 +50,7 @@ ul {
 }
 
 .contacts-item-link:hover,
-.contacts-item-link:active {
+.contacts-item-link:focus {
   color: #404bbf;
 }
 
